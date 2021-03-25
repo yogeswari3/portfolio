@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my_website</title>
+    <link rel="stylesheet" href="index_styles.css">
+    <link rel="stylesheet" href="color-1.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" class="alternate-style" title="color-1" href="color-1.css">
+    <link rel="stylesheet" class="alternate-style" title="color-2" href="color-2.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="color-3" href="color-3.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="color-4" href="color-4.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="color-5" href="color-5.css" disabled>
+    <link rel="stylesheet" href="style-switcher.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!--preloader start-->
+    <div class="preloader">
+        <div class="box">
+            <div></div><div></div><div></div>
+        </div>
+    </div>
+    <!--preloader end-->
+    <!--header start-->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar" justify-content-between>
+                <div class="brand">
+                    <a href="#">Yogeswari Yenduva</a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#home" class="active" data-after="home"><i class="fa fa-home"></i></a></li>
+                        <li><a href="#about" data-after="About"><i class="fa fa-user-circle-o"></i></a></a></li>
+                        <li><a href="#profile" data-after="Profile"><i class="fa fa-cogs"></i></a></a></li>
+                        <li><a href="#contact" data-after="Contact"><i class="fa fa-envelope"></i></a></a></li>
+                        <li><a href="yogeswari.pdf" target="_blank" data-after="Resume"><i class="fa fa-file-text-o"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--header end-->
+    <!--home start-->
+    <section class="home-section section" id="home">
+        <!--effect wrap start-->
+        <div class="effect-wrap">
+            <div class="effect effect-1"></div>
+            <div class="effect effect-2">
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div>
+            </div>
+            <div class="effect effect-3"></div>
+            <div class="effect effect-4"></div>
+            <div class="effect effect-5">
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+            </div>
+        </div>
+        <!--effect wrap end-->
+        <div class="container">
+            <div class="row full-screen align-items-center">
+                <div class="home-text">
+                    <p>hello</p>
+                    <h2>I'm Yogeswari</h2>
+                    <h1>Undergraduate</h1>
+                    <a href="yogeswari.pdf" target="_blank" class="btn1">Download CV</a>
+                </div>
+                <div class="home-img">
+                    <div class="img-box">
+                        <img src="yogi.jpg"alt="profile pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--home end-->
+    <!--style switcher start-->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fa fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fa"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!--style switcher end-->
+    <!--about section start-->
+    <section class="about-section section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="main info">About me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-img">
+                    <div class="img-box">
+                        <img src="yogi.jpg" alt="profile pic">
+                    </div>
+                </div>
+                <div class="about-info">
+                    <p><span>
+                        Hi !!! My name is Yogeswari.<br>April 13th,2002<br>Andhra Pradesh, India<br> </span>
+                        I am currently studying in national institute of Technology, Delhi.
+                        Now I'm working on an internship program on Web Development provided by verzeo and loving every minute of it.
+                        I completed my intermediate at Sri Chaitanya Shivam campus,Visakhapatnam. 
+                        I'am interested in playing volleyball. I love to sleep.
+                    </p>
+                    <div class="social-links ">
+                        <a href="#" class="btn1"><i class="fa fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/priya_yenduva/" target="_blank" class="btn1"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/yenduva-yogeswari-1590711bb/" target="_blank" class="btn1"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--about tabs start-->
+            <div class="row" id="profile">
+                <div class="about-tabs">
+                    <span class="tab-item active" data-target=".skills">skills</span>
+                    <span class="tab-item" data-target=".education">education</span>
+                    <span class="tab-item" data-target=".favourites">favourites</span>
+                </div>
+            </div>
+            <!--about tabs end-->
+            <!--skills start-->
+            <div class="row">
+                <div class="skills tab-content active">
+                    <div class="row">
+                        <div class="skill-item">
+                            <p>Html</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: calc(70% - 14px)">
+                                    <span>70%</span>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>Python</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: calc(50% - 14px)">
+                                    <span>50%</span>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>CSS</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: calc(60% - 14px)">
+                                    <span>60%</span>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>JavaScript</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: calc(40% - 14px)">
+                                    <span>40%</span>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>Bootstrap</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: calc(40% - 14px)">
+                                    <span>40%</span>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--skills end-->
+            <!--education start-->
+            <div class="row">
+                <div class="education tab-content">
+                    <div class="row">
+                        <div class="timeline">
+                            <div class="row">
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner">
+                                        <i class="fa fa-graduation-cap icon"></i>
+                                        <span>2019-present</span>
+                                        <h3>National Institute of Technology, Delhi</h3>
+                                        <h4>Bachelor of Technology</h4>
+                                        <p>CGPA:8.3<br>Electronics and Communication Engineering</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner">
+                                        <i class="fa fa-graduation-cap icon"></i>
+                                        <span>2017-2019</span>
+                                        <h3>Sri Chaitanya College</h3>
+                                        <h4>shivam campus, Visakhapatnam</h4>
+                                        <p>CGPA:10<br>Intermediate,MPC</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner">
+                                        <i class="fa fa-graduation-cap icon"></i>
+                                        <span>____-2017</span>
+                                        <h3>Sri Chaitanya school</h3>
+                                        <h4>Srikakulam, Andhra Pradesh</h4>
+                                        <p>CGPA:10<br>Schooling</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--education end-->
+            <!--favourites start-->
+            <div class="row">
+                <div class="favourites tab-content">
+                    <div class="row">
+                        <div class="timeline">
+                            <div class="row">
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner">
+                                        <i class="fa fa-heart-o icon"></i>
+                                        <span>Sports</span>
+                                        <h3>volleyball</h3>
+                                        
+                                        <p>Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner">
+                                        <i class="fa fa-heart-o icon"></i>
+                                        <span>music</span>
+                                        <h3>melodies</h3>
+                                        
+                                        <p>Rain drops on roses<br>whiskers on kittens</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner">
+                                        <i class="fa fa-heart-o icon"></i>
+                                        <span>place</span>
+                                        <h3>beach</h3>
+                                        
+                                        <p> It is seen as a place of relaxation because it is normally quiet and peaceful there. To look around you and see the beauty of mother nature at it's finest</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner">
+                                        <i class="fa fa-heart-o icon"></i>
+                                        <span>animals</span>
+                                        <h3>Snoopy</h3>
+                                        <h4>my pet dog</h4>
+                                        <p>They can literally read the feelings of their owners. they can be a great friend when I am lonely</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--favourites end-->
+        </div>
+    </section>
+    <!--about section end-->
+    <!--contact section start-->
+    <section class="contact-section section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="contact">Get In Touch</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-item">
+                    <div class="contact-item-inner">
+                        <i class="fa fa-phone"></i>
+                        <span>Phone</span>
+                        <p>8309840735</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-item-inner">
+                        <i class="fa fa-envelope"></i>
+                        <span>Email</span>
+                        <p>yogeswari.yenduva@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-item-inner">
+                        <i class="fa fa-map-marker"></i>
+                        <span>Address</span>
+                        <p>Srikakulam, Andhra Pradesh - 532402</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form>
+                        <div class="row">
+                            <div class="w-50">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Name" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Email" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Subject" class="input-control" required>
+                                </div>
+                            </div>
+                            <div class="w-50">
+                                <div class="input-group">
+                                    <textarea class="input-control" placeholder="Message" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="submit-btn">
+                                <button type="submit" class="btn1">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact section end-->
+    <!--footer start-->
+    <footer>
+        <a href="#" class="btn1"><i class="fa fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/priya_yenduva/" class="btn1" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/yenduva-yogeswari-1590711bb/" class="btn1" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <p>Created by Yogeswari Yenduva <i class="fa fa-copyright"></i> 2021 All rights reserved</p>
+    </footer>
+    <!--footer end-->
+    <script src="index.js"></script>
+    <script src="style-switcher.js"></script>
+</body>
+</html>
