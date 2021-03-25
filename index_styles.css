@@ -260,16 +260,6 @@ img{
 #header .nav-list ul.active{
     left: 0;
 }
-#header .nav-list ul a{
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: .2rem;
-    text-decoration: none;
-    color: var(--text-black-900);
-    text-transform: uppercase;
-    padding: 20px;
-    display: block;
-}
 #header .nav-list ul a::after{
     content: attr(data-after);
     position: absolute;
@@ -285,9 +275,6 @@ img{
 #header .nav-list ul li:hover a::after{
     transform: translate(-50%, -50%) scale(1);
     letter-spacing: initial;
-}
-#header .nav-list ul li:hover a{
-    color: var(--skin-color);
 }
 #header .hamburger{
     height: 60px;
